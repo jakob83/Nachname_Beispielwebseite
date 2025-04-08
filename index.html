@@ -19,7 +19,10 @@
         padding: 1rem 0;
         text-align: center;
       }
-
+      header img {
+        max-width: 100%;
+        height: auto;
+      }
       section {
         padding: 1.5rem;
         margin: 1rem auto;
@@ -49,9 +52,12 @@
         padding: 0;
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
       }
       nav ul li {
+        margin-top: 40px;
         margin: 0 1rem;
+        text-decoration: underline white;
       }
       nav ul li a {
         color: white;
@@ -61,7 +67,7 @@
       }
       nav ul li a:hover {
         color: #ffcc00;
-        text-decoration: underline;
+        text-decoration: none;
         transform: scale(1.1);
         transition: all 0.3s ease;
       }
